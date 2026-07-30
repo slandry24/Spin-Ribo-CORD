@@ -1,0 +1,34 @@
+name: utr_pipeline
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.12
+  # Workflow engine
+  - bioconda::nextflow=24.10.4
+  # Data
+  - pandas=2.2.3
+  - numpy=2.2.6
+  - scipy=1.15.2
+  - scikit-learn=1.7.2
+  # Plotting
+  - matplotlib=3.10.3
+  - seaborn=0.13.2
+  # Dashboard + plotting (pip has newer versions than conda-forge)
+  - pip
+  - pip:
+    - plotly==6.7.0
+    - dash==4.1.0
+    - dash-bootstrap-components==2.0.4
+  # Stats
+  - statsmodels=0.14.4
+  # BAM handling
+  - bioconda::pysam=0.23.3
+  - bioconda::biopython=1.85
+  # Alignment / read processing
+  - bioconda::star=2.7.11b
+  - bioconda::samtools=1.21
+  - bioconda::cutadapt=4.9
+  - bioconda::fastqc=0.12.1
+  - bioconda::multiqc=1.25.1

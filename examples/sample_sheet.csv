@@ -1,0 +1,13 @@
+Sample,Fastq_path_R1,Fastq_path_R2,Treatment,Read1_Read2,Replicate
+Lenti_HEK,/path/to/fastqs/Lenti_HEK_Dox_R1_R1_001.fastq.gz,/path/to/fastqs/Lenti_HEK_Dox_R1_R2_001.fastq.gz,Dox,UTR_CDS,1
+Lenti_HEK,/path/to/fastqs/Lenti_HEK_Dox_R2_R1_001.fastq.gz,/path/to/fastqs/Lenti_HEK_Dox_R2_R2_001.fastq.gz,Dox,UTR_CDS,2
+Lenti_HEK,/path/to/fastqs/Lenti_HEK_Dox_R3_R1_001.fastq.gz,/path/to/fastqs/Lenti_HEK_Dox_R3_R2_001.fastq.gz,Dox,UTR_CDS,3
+Lenti_HEK,/path/to/fastqs/Lenti_HEK_NoDox_R1_R1_001.fastq.gz,/path/to/fastqs/Lenti_HEK_NoDox_R1_R2_001.fastq.gz,NoDox,UTR_CDS,1
+Lenti_HEK,/path/to/fastqs/Lenti_HEK_NoDox_R2_R1_001.fastq.gz,/path/to/fastqs/Lenti_HEK_NoDox_R2_R2_001.fastq.gz,NoDox,UTR_CDS,2
+Lenti_HEK,/path/to/fastqs/Lenti_HEK_NoDox_R3_R1_001.fastq.gz,/path/to/fastqs/Lenti_HEK_NoDox_R3_R2_001.fastq.gz,NoDox,UTR_CDS,3
+IVTMods_HEK,/path/to/fastqs/IVTMods_HEK_Dox_R1_R1_001.fastq.gz,/path/to/fastqs/IVTMods_HEK_Dox_R1_R2_001.fastq.gz,Dox,UTR_CDS,1
+IVTMods_HEK,/path/to/fastqs/IVTMods_HEK_Dox_R2_R1_001.fastq.gz,/path/to/fastqs/IVTMods_HEK_Dox_R2_R2_001.fastq.gz,Dox,UTR_CDS,2
+IVTMods_HEK,/path/to/fastqs/IVTMods_HEK_Dox_R3_R1_001.fastq.gz,/path/to/fastqs/IVTMods_HEK_Dox_R3_R2_001.fastq.gz,Dox,UTR_CDS,3
+IVTMods_HEK,/path/to/fastqs/IVTMods_HEK_NoDox_R1_R1_001.fastq.gz,/path/to/fastqs/IVTMods_HEK_NoDox_R1_R2_001.fastq.gz,NoDox,UTR_CDS,1
+IVTMods_HEK,/path/to/fastqs/IVTMods_HEK_NoDox_R2_R1_001.fastq.gz,/path/to/fastqs/IVTMods_HEK_NoDox_R2_R2_001.fastq.gz,NoDox,UTR_CDS,2
+IVTMods_HEK,/path/to/fastqs/IVTMods_HEK_NoDox_R3_R1_001.fastq.gz,/path/to/fastqs/IVTMods_HEK_NoDox_R3_R2_001.fastq.gz,NoDox,UTR_CDS,3

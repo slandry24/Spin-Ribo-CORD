@@ -1,0 +1,15 @@
+# Nextflow runtime
+.nextflow/
+.nextflow.log*
+work/
+
+# Logs
+logs/
+*.log
+*.err
+*.out
+
+# Common
+__pycache__/
+*.pyc
+.DS_Store
