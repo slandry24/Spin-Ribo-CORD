@@ -1,4 +1,4 @@
-# UTR Translation Efficiency Pipeline V5
+# Pooled Ribo-CORD
 
 A Nextflow pipeline for measuring cell-type-specific translational efficiency of 5'UTR (or 3'UTR) libraries using RiboSTAMP-derived C→T editing rates as a proxy for ribosome engagement.
 
