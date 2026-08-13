@@ -25,7 +25,7 @@ dependencies:
   - statsmodels=0.14.4
   # BAM handling
   - bioconda::pysam=0.23.3
-  - bioconda::biopython=1.85
+  - biopython=1.85
   # Alignment / read processing
   - bioconda::star=2.7.11b
   - bioconda::samtools=1.21
