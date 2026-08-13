@@ -2,7 +2,7 @@
 
 # Spin Ribo-CORD
 
-A Nextflow pipeline for measuring cell-type-specific translational efficiency of 5'UTR (or 3'UTR) libraries using RiboSTAMP-derived C→T editing rates as a proxy for ribosome engagement.
+A Nextflow pipeline for measuring cell-type-specific translational efficiency of 5'UTR (or 3'UTR) libraries using Ribo-Cord-derived C→T editing rates as a proxy for ribosome engagement.
 
 ## Overview
 
@@ -58,7 +58,7 @@ This installs Nextflow itself plus every tool the pipeline needs — `star`, `sa
 
 Then activate it before running anything:
 ```bash
-conda activate utr_pipeline
+conda activate spin_ribo_cord
 ```
 
 To update an existing environment after pulling changes:
