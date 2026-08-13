@@ -6,7 +6,7 @@ A Nextflow pipeline for measuring cell-type-specific translational efficiency of
 
 ## Overview
 
-The pipeline aligns paired-end sequencing reads to a pooled UTR+CDS reference, counts cytosine-to-uracil (C→T) mismatches introduced by STAMP editing, and computes an Edits Per Read (EPR) metric. It then performs a Welch's t-test between Dox (editor-on) and NoDox (editor-off) replicates to identify UTRs with significantly elevated translational activity.
+The pipeline aligns paired-end sequencing reads to a pooled UTR+CDS reference, counts cytosine-to-uracil (C→T) mismatches introduced by Ribo-COORD editing, and computes an Edits Per Read (EPR) metric. It then performs a Welch's t-test between Dox (editor-on) and NoDox (editor-off) replicates to identify UTRs with significantly elevated translational activity.
 
 ```
 Raw FASTQs
